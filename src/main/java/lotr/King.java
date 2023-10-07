@@ -6,7 +6,7 @@ public class King extends Character {
     private static Random rand = new Random();
 
     public King() {
-        super(new KingKick(),rand.nextInt(5, 15), rand.nextInt(5, 15));
+        super(new KingKick(),rand.nextInt( 10) + 5, rand.nextInt( 10) + 5);
     }
 
     @Override

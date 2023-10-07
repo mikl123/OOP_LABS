@@ -6,7 +6,7 @@ import java.util.Random;
 public class Knight extends Character{
     private static Random rand = new Random();
     public Knight() {
-        super(new KingKick(),rand.nextInt(2, 12), rand.nextInt(2, 12));
+        super(new KingKick(),rand.nextInt(10) + 2, rand.nextInt( 10) + 2);
     }
     @Override
     public void kick(Character a) {
